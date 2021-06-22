@@ -3,6 +3,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 const Home = () => import('../views/home/Home')
+const Home1 = () => import('../views/home/Home1')
 
   // 2:安装插件
 Vue.use(VueRouter)
@@ -16,6 +17,10 @@ const routes = [
   {
     path:'/home',
     component:Home
+  },
+  {
+    path:'/home1',
+    component:Home1
   }
 ]
 
