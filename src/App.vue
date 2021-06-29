@@ -59,6 +59,26 @@
         <router-link to="/p21"><p>p21 Notice消息提示类别组件</p></router-link>
 
         <router-link to="/p22"><p>p22 NavMenu导航菜单</p></router-link>
+
+        <router-link to="/p23"><p>p23 Tabs标签页</p></router-link>
+
+        <router-link to="/p24"><p>p24 面包屑</p></router-link>
+
+        <router-link to="/p25"><p>p25 dropdown下拉菜单</p></router-link>
+
+        <router-link to="/p26"><p>p26 steps步骤条</p></router-link>
+
+        <router-link to="/p27"><p>p27 Dialog对话框</p></router-link>
+
+        <router-link to="/p28"><p>p28 Tooltip文字提示和Popover弹出框</p></router-link>
+
+        <router-link to="/p29"><p>p29 Popconfirm气泡确认框</p></router-link>
+
+        <router-link to="/p30"><p>p30 走马灯</p></router-link>
+
+        <router-link to="/p31"><p>p31 Others类别组件讲解</p></router-link>
+
+        <router-link to="/test1"><p>练习</p></router-link>
       </el-aside>
       <el-container>
         <el-main>
@@ -68,17 +88,19 @@
     </el-container>
 
 
-
+    <shop>
+      <div slot-scope="scope">{{scope.message.data}}</div>
+    </shop>
   </div>
 </template>
 
 <script>
-
+import shop from './views/test/shop'
 
 export default {
   name: 'app',
   components: {
-
+    shop
   }
 }
 </script>

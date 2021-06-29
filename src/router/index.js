@@ -136,6 +136,46 @@ const routes = [
   {
     path:'/p22',
     component:() => import('../views/page/p22')
+  },
+  {
+    path:'/p23',
+    component:() => import('../views/page/p23')
+  },
+  {
+    path:'/p24',
+    component:() => import('../views/page/p24')
+  },
+  {
+    path:'/p25',
+    component:() => import('../views/page/p25')
+  },
+  {
+    path:'/p26',
+    component:() => import('../views/page/p26')
+  },
+  {
+    path:'/p27',
+    component:() => import('../views/page/p27')
+  },
+  {
+    path:'/p28',
+    component:() => import('../views/page/p28')
+  },
+  {
+    path:'/p29',
+    component:() => import('../views/page/p29')
+  },
+  {
+    path:'/p30',
+    component:() => import('../views/page/p30')
+  },
+  {
+    path:'/p31',
+    component:() => import('../views/page/p31')
+  },
+  {
+    path:'/test1',
+    component:() =>import('../views/test/test')
   }
 
 ]
